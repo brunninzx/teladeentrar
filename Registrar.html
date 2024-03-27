@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&family=Poppins:wght@400;600;700&display=swap"
+        rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Form - Registrar</title>
+</head>
+
+<body>
+    <div class="conteiner">
+        <form action="Processamento.php" method="post">
+            <h1>Criar conta</h1>
+            <div>
+                <input class="input-box" type="text" id="E-mail" placeholder="E-mail:" name="E-mail:" required>
+                <box-icon type='solid' name='user-circle'></box-icon>
+            </div>
+            
+            <div>
+                <input class="input-box" type="text" id="name" placeholder="Nome:" name="Nome:" required>
+                <box-icon type='solid' name='user-circle'></box-icon>
+            </div>
+            <div>
+                <input class="input-box" type="password" id="password" placeholder="Senha:" name="Senha" required>
+                <box-icon name='lock-alt' type='solid' ></box-icon>
+            </div>
+
+            <button class="btn" type="submit">Registrar-se</button>
+
+       
+        </form>
+    </div>
+</body>
+
+</html>
